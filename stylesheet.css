@@ -94,9 +94,8 @@ h1:has(+ p){
     flex-wrap: wrap;
 }
 #quote{
-    flex:2;
     text-align: left;
-    max-width: 40vw;
+    max-width: 40rem;
 }
 #education{
     max-width: 20em;
