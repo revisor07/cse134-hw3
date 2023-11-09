@@ -117,11 +117,12 @@ h1:has(+ p){
 
 }
 .skill-box{
+    width: 60vw;
     min-width: 200px;
-    max-width: 15vw;
+    max-width: 20vw;
     border: 2px solid gray;
     padding: 1em;
-    margin: 0.5em;
+    margin: 1.5vw;
 }
 .skill-box h3{
     text-align: center;
@@ -164,16 +165,19 @@ h1:has(+ p){
     background-color:#2e2f34;
     text-decoration: none; 
 }
-
-
-
+.experience-wrapper{
+    display: flex;
+    justify-content: center;
+  
+}
 .experience-list{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
 .experience-item{
-    max-width: 40rem;
+    width: 40vh;
     margin: 0.2em;
     background-color: #420d78;
     border-radius: 5px;
@@ -189,31 +193,32 @@ h1:has(+ p){
     margin: 0.5em;
 }
 
-.email {
+.email{
     font-size: 2rem;
     text-decoration: underline;
     text-decoration-color:#bc60fb;
-    margin-left: 2rem;
+    text-align: left;
 }
 .socials{
     font-size: 1.5rem;
     text-decoration: none;
-    margin-left: 2rem;
 
+   
+}
+#contact{
+    text-align: left;
+    margin: 2rem;
 }
 /* footer links easier to press on mobile*/
 @media only screen and (max-width: 600px) {
-    #contact{
-        text-align: center;
-    }
+
     .email{
         text-align: left;
     }
     .socials{
         font-family: Helvetica;
         font-size: 2rem;
-        margin-left: 2rem;
-        background-color: color-mix(in HSL, red 50%, blue);
+        background-color: color-mix(in HSL, red 23%, blue);
         padding: 0.5rem;
         border-radius: 30px;
     }
