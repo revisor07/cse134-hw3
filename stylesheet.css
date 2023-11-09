@@ -213,7 +213,7 @@ h1:has(+ p){
         font-family: Helvetica;
         font-size: 2rem;
         margin-left: 2rem;
-        background-color: color-mix(in HSL, red 50%, white);
+        background-color: color-mix(in HSL, red 50%, blue);
         padding: 0.5rem;
         border-radius: 30px;
     }
