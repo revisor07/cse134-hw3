@@ -201,6 +201,7 @@ h1:has(+ p){
     margin-left: 2rem;
 
 }
+/* footer links easier to press on mobile*/
 @media only screen and (max-width: 600px) {
     #contact{
         text-align: center;
@@ -212,7 +213,7 @@ h1:has(+ p){
         font-family: Helvetica;
         font-size: 2rem;
         margin-left: 2rem;
-        background-color: color-mix(in srgb, #bc60fb 0%, #bc60fb);
+        background-color: color-mix(in srgb, #bc60fb 100%, white);
         padding: 0.5rem;
         border-radius: 30px;
     }
