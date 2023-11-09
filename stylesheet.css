@@ -201,3 +201,19 @@ h1:has(+ p){
     margin-left: 2rem;
 
 }
+@media only screen and (max-width: 600px) {
+    #contact{
+        text-align: center;
+    }
+    .email{
+        text-align: left;
+    }
+    .socials{
+        font-family: Helvetica;
+        font-size: 2rem;
+        margin-left: 2rem;
+        background-color: color-mix(in srgb, #bc60fb 0%, #bc60fb);
+        padding: 0.5rem;
+        border-radius: 30px;
+    }
+}
