@@ -135,8 +135,8 @@ h1:has(+ p){
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 .project-cards a{
     text-decoration: none;  
@@ -155,6 +155,7 @@ h1:has(+ p){
     min-width: 200px;
     background-color: #2e2f34;
     border-radius: 5px;
+    margin: 0.5rem;
 }
 .project-caption {
     background-color: #2e2f34;
