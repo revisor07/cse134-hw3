@@ -42,8 +42,8 @@ nav li{
     position: relative;
 }
 
-/* hover animation only when all menu items are in a singe row */
-@media only screen and (min-width: 890px) {
+/* hover animation only in desktop view */
+@media only screen and (min-width: 845px) {
     .nav-link::after {
         content: '';
         height: 2px;
